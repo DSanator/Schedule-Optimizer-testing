@@ -29,7 +29,6 @@ Partial Class ScheduleDesignGui
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.LoadPreviouslyTakenClassesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.ListView8 = New System.Windows.Forms.ListView()
         Me.ColumnHeader24 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -44,45 +43,35 @@ Partial Class ScheduleDesignGui
         Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.ListView3 = New System.Windows.Forms.ListView()
         Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader10 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader11 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.ListView4 = New System.Windows.Forms.ListView()
         Me.ColumnHeader12 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader13 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader14 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.ListView5 = New System.Windows.Forms.ListView()
         Me.ColumnHeader15 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader16 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader17 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.ListView6 = New System.Windows.Forms.ListView()
         Me.ColumnHeader18 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader19 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader20 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.ListView9 = New System.Windows.Forms.ListView()
         Me.ColumnHeader27 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader28 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader29 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
         Me.ListView10 = New System.Windows.Forms.ListView()
         Me.ColumnHeader30 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader31 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader32 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
-        Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar3 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar4 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar5 = New System.Windows.Forms.ProgressBar()
@@ -101,6 +90,9 @@ Partial Class ScheduleDesignGui
         Me.ColumnHeader34 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader35 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -154,14 +146,6 @@ Partial Class ScheduleDesignGui
         Me.LoadPreviouslyTakenClassesToolStripMenuItem.Name = "LoadPreviouslyTakenClassesToolStripMenuItem"
         Me.LoadPreviouslyTakenClassesToolStripMenuItem.Size = New System.Drawing.Size(218, 26)
         Me.LoadPreviouslyTakenClassesToolStripMenuItem.Text = "Load Previously Taken Classes"
-        '
-        'Label2
-        '
-        Me.Label2.Location = New System.Drawing.Point(378, 415)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(89, 16)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Total Credits: "
         '
         'Label9
         '
@@ -264,14 +248,6 @@ Partial Class ScheduleDesignGui
         '
         Me.ColumnHeader8.Text = "Credits"
         '
-        'Label3
-        '
-        Me.Label3.Location = New System.Drawing.Point(664, 415)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(89, 16)
-        Me.Label3.TabIndex = 28
-        Me.Label3.Text = "Total Credits: "
-        '
         'ListView3
         '
         Me.ListView3.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader9, Me.ColumnHeader10, Me.ColumnHeader11})
@@ -307,24 +283,13 @@ Partial Class ScheduleDesignGui
         Me.Label4.TabIndex = 31
         Me.Label4.Text = "Total Credits: "
         '
-        'RadioButton3
-        '
-        Me.RadioButton3.Location = New System.Drawing.Point(929, 210)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton3.TabIndex = 32
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Add Semester"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        Me.RadioButton3.Visible = False
-        '
         'ListView4
         '
         Me.ListView4.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader12, Me.ColumnHeader13, Me.ColumnHeader14})
         Me.ListView4.GridLines = True
         Me.ListView4.HideSelection = False
         Me.ListView4.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView4.Location = New System.Drawing.Point(1135, 199)
+        Me.ListView4.Location = New System.Drawing.Point(1131, 228)
         Me.ListView4.Name = "ListView4"
         Me.ListView4.Size = New System.Drawing.Size(242, 151)
         Me.ListView4.TabIndex = 36
@@ -344,25 +309,6 @@ Partial Class ScheduleDesignGui
         'ColumnHeader14
         '
         Me.ColumnHeader14.Text = "Credits"
-        '
-        'Label5
-        '
-        Me.Label5.Location = New System.Drawing.Point(1212, 362)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(89, 16)
-        Me.Label5.TabIndex = 34
-        Me.Label5.Text = "Total Credits: "
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.Location = New System.Drawing.Point(1196, 175)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton4.TabIndex = 35
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Add Semester"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        Me.RadioButton4.Visible = False
         '
         'ListView5
         '
@@ -399,24 +345,13 @@ Partial Class ScheduleDesignGui
         Me.Label6.TabIndex = 37
         Me.Label6.Text = "Total Credits: "
         '
-        'RadioButton5
-        '
-        Me.RadioButton5.Location = New System.Drawing.Point(362, 404)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton5.TabIndex = 38
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Add Semester"
-        Me.RadioButton5.UseVisualStyleBackColor = True
-        Me.RadioButton5.Visible = False
-        '
         'ListView6
         '
         Me.ListView6.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader18, Me.ColumnHeader19, Me.ColumnHeader20})
         Me.ListView6.GridLines = True
         Me.ListView6.HideSelection = False
         Me.ListView6.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView6.Location = New System.Drawing.Point(587, 423)
+        Me.ListView6.Location = New System.Drawing.Point(587, 463)
         Me.ListView6.Name = "ListView6"
         Me.ListView6.Size = New System.Drawing.Size(242, 151)
         Me.ListView6.TabIndex = 42
@@ -444,17 +379,6 @@ Partial Class ScheduleDesignGui
         Me.Label7.Size = New System.Drawing.Size(89, 16)
         Me.Label7.TabIndex = 40
         Me.Label7.Text = "Total Credits: "
-        '
-        'RadioButton6
-        '
-        Me.RadioButton6.Location = New System.Drawing.Point(648, 404)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton6.TabIndex = 41
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Add Semester"
-        Me.RadioButton6.UseVisualStyleBackColor = True
-        Me.RadioButton6.Visible = False
         '
         'ListView9
         '
@@ -491,24 +415,13 @@ Partial Class ScheduleDesignGui
         Me.Label10.TabIndex = 43
         Me.Label10.Text = "Total Credits: "
         '
-        'RadioButton9
-        '
-        Me.RadioButton9.Location = New System.Drawing.Point(929, 404)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton9.TabIndex = 44
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Add Semester"
-        Me.RadioButton9.UseVisualStyleBackColor = True
-        Me.RadioButton9.Visible = False
-        '
         'ListView10
         '
         Me.ListView10.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader30, Me.ColumnHeader31, Me.ColumnHeader32})
         Me.ListView10.GridLines = True
         Me.ListView10.HideSelection = False
         Me.ListView10.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView10.Location = New System.Drawing.Point(1135, 423)
+        Me.ListView10.Location = New System.Drawing.Point(1131, 456)
         Me.ListView10.Name = "ListView10"
         Me.ListView10.Size = New System.Drawing.Size(242, 151)
         Me.ListView10.TabIndex = 48
@@ -531,36 +444,11 @@ Partial Class ScheduleDesignGui
         '
         'Label11
         '
-        Me.Label11.Location = New System.Drawing.Point(1220, 505)
+        Me.Label11.Location = New System.Drawing.Point(1208, 620)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(89, 16)
         Me.Label11.TabIndex = 46
         Me.Label11.Text = "Total Credits: "
-        '
-        'RadioButton10
-        '
-        Me.RadioButton10.Location = New System.Drawing.Point(1196, 397)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(114, 20)
-        Me.RadioButton10.TabIndex = 47
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Add Semester"
-        Me.RadioButton10.UseVisualStyleBackColor = True
-        Me.RadioButton10.Visible = False
-        '
-        'ProgressBar1
-        '
-        Me.ProgressBar1.Location = New System.Drawing.Point(299, 576)
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(529, 38)
-        Me.ProgressBar1.TabIndex = 49
-        '
-        'ProgressBar2
-        '
-        Me.ProgressBar2.Location = New System.Drawing.Point(299, 620)
-        Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(529, 38)
-        Me.ProgressBar2.TabIndex = 50
         '
         'ProgressBar3
         '
@@ -701,11 +589,41 @@ Partial Class ScheduleDesignGui
         Me.ComboBox4.Size = New System.Drawing.Size(121, 24)
         Me.ComboBox4.TabIndex = 65
         '
+        'ComboBox5
+        '
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
+        Me.ComboBox5.Location = New System.Drawing.Point(655, 199)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox5.TabIndex = 66
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
+        Me.ComboBox6.Location = New System.Drawing.Point(929, 199)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox6.TabIndex = 67
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
+        Me.ComboBox7.Location = New System.Drawing.Point(1193, 202)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox7.TabIndex = 68
+        '
         'ScheduleDesignGui
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1407, 1055)
+        Me.Controls.Add(Me.ComboBox7)
+        Me.Controls.Add(Me.ComboBox6)
+        Me.Controls.Add(Me.ComboBox5)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ListView11)
         Me.Controls.Add(Me.ProgressBar9)
@@ -721,33 +639,22 @@ Partial Class ScheduleDesignGui
         Me.Controls.Add(Me.ProgressBar5)
         Me.Controls.Add(Me.ProgressBar6)
         Me.Controls.Add(Me.ProgressBar3)
-        Me.Controls.Add(Me.ProgressBar2)
-        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.ListView10)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.RadioButton10)
         Me.Controls.Add(Me.ListView9)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.RadioButton9)
         Me.Controls.Add(Me.ListView6)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.RadioButton6)
         Me.Controls.Add(Me.ListView5)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.RadioButton5)
         Me.Controls.Add(Me.ListView4)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.ListView3)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.ListView2)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.ListView8)
         Me.Controls.Add(Me.RadioButton8)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lvwAvailableClasses)
         Me.Controls.Add(Me.MenuStrip1)
@@ -768,7 +675,6 @@ Partial Class ScheduleDesignGui
     Friend WithEvents LoadPreviouslyTakenClassesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ColumnHeader1 As ColumnHeader
     Friend WithEvents ColumnHeader2 As ColumnHeader
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents ListView8 As ListView
     Friend WithEvents ColumnHeader24 As ColumnHeader
@@ -783,45 +689,35 @@ Partial Class ScheduleDesignGui
     Friend WithEvents ColumnHeader6 As ColumnHeader
     Friend WithEvents ColumnHeader7 As ColumnHeader
     Friend WithEvents ColumnHeader8 As ColumnHeader
-    Friend WithEvents Label3 As Label
     Friend WithEvents ListView3 As ListView
     Friend WithEvents ColumnHeader9 As ColumnHeader
     Friend WithEvents ColumnHeader10 As ColumnHeader
     Friend WithEvents ColumnHeader11 As ColumnHeader
     Friend WithEvents Label4 As Label
-    Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents ListView4 As ListView
     Friend WithEvents ColumnHeader12 As ColumnHeader
     Friend WithEvents ColumnHeader13 As ColumnHeader
     Friend WithEvents ColumnHeader14 As ColumnHeader
-    Friend WithEvents Label5 As Label
-    Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents ListView5 As ListView
     Friend WithEvents ColumnHeader15 As ColumnHeader
     Friend WithEvents ColumnHeader16 As ColumnHeader
     Friend WithEvents ColumnHeader17 As ColumnHeader
     Friend WithEvents Label6 As Label
-    Friend WithEvents RadioButton5 As RadioButton
     Friend WithEvents ListView6 As ListView
     Friend WithEvents ColumnHeader18 As ColumnHeader
     Friend WithEvents ColumnHeader19 As ColumnHeader
     Friend WithEvents ColumnHeader20 As ColumnHeader
     Friend WithEvents Label7 As Label
-    Friend WithEvents RadioButton6 As RadioButton
     Friend WithEvents ListView9 As ListView
     Friend WithEvents ColumnHeader27 As ColumnHeader
     Friend WithEvents ColumnHeader28 As ColumnHeader
     Friend WithEvents ColumnHeader29 As ColumnHeader
     Friend WithEvents Label10 As Label
-    Friend WithEvents RadioButton9 As RadioButton
     Friend WithEvents ListView10 As ListView
     Friend WithEvents ColumnHeader30 As ColumnHeader
     Friend WithEvents ColumnHeader31 As ColumnHeader
     Friend WithEvents ColumnHeader32 As ColumnHeader
     Friend WithEvents Label11 As Label
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents ProgressBar1 As ProgressBar
-    Friend WithEvents ProgressBar2 As ProgressBar
     Friend WithEvents ProgressBar3 As ProgressBar
     Friend WithEvents ProgressBar4 As ProgressBar
     Friend WithEvents ProgressBar5 As ProgressBar
@@ -840,4 +736,7 @@ Partial Class ScheduleDesignGui
     Friend WithEvents ColumnHeader34 As ColumnHeader
     Friend WithEvents ColumnHeader35 As ColumnHeader
     Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents ComboBox7 As ComboBox
 End Class
