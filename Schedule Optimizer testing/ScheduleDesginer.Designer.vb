@@ -101,7 +101,6 @@ Partial Class ScheduleDesignGui
         Me.ColumnHeader34 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader35 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -146,14 +145,14 @@ Partial Class ScheduleDesignGui
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadPreviouslyTakenClassesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1407, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1407, 30)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'LoadPreviouslyTakenClassesToolStripMenuItem
         '
         Me.LoadPreviouslyTakenClassesToolStripMenuItem.Name = "LoadPreviouslyTakenClassesToolStripMenuItem"
-        Me.LoadPreviouslyTakenClassesToolStripMenuItem.Size = New System.Drawing.Size(218, 24)
+        Me.LoadPreviouslyTakenClassesToolStripMenuItem.Size = New System.Drawing.Size(218, 26)
         Me.LoadPreviouslyTakenClassesToolStripMenuItem.Text = "Load Previously Taken Classes"
         '
         'Label2
@@ -702,21 +701,11 @@ Partial Class ScheduleDesignGui
         Me.ComboBox4.Size = New System.Drawing.Size(121, 24)
         Me.ComboBox4.TabIndex = 65
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(430, 54)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 66
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'ScheduleDesignGui
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1407, 1055)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ListView11)
         Me.Controls.Add(Me.ProgressBar9)
@@ -851,5 +840,4 @@ Partial Class ScheduleDesignGui
     Friend WithEvents ColumnHeader34 As ColumnHeader
     Friend WithEvents ColumnHeader35 As ColumnHeader
     Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents Button1 As Button
 End Class
