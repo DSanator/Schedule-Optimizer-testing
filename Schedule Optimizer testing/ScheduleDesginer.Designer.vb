@@ -85,7 +85,7 @@ Partial Class ScheduleDesignGui
         Me.ProgressBar9 = New System.Windows.Forms.ProgressBar()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ListView11 = New System.Windows.Forms.ListView()
+        Me.lvEnterClasses = New System.Windows.Forms.ListView()
         Me.ColumnHeader33 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader34 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader35 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -103,9 +103,10 @@ Partial Class ScheduleDesignGui
         Me.lvwAvailableClasses.GridLines = True
         Me.lvwAvailableClasses.HideSelection = False
         Me.lvwAvailableClasses.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.lvwAvailableClasses.Location = New System.Drawing.Point(14, 229)
+        Me.lvwAvailableClasses.Location = New System.Drawing.Point(10, 186)
+        Me.lvwAvailableClasses.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lvwAvailableClasses.Name = "lvwAvailableClasses"
-        Me.lvwAvailableClasses.Size = New System.Drawing.Size(242, 399)
+        Me.lvwAvailableClasses.Size = New System.Drawing.Size(182, 325)
         Me.lvwAvailableClasses.TabIndex = 0
         Me.lvwAvailableClasses.UseCompatibleStateImageBehavior = False
         Me.lvwAvailableClasses.View = System.Windows.Forms.View.Details
@@ -126,9 +127,10 @@ Partial Class ScheduleDesignGui
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(14, 210)
+        Me.Label1.Location = New System.Drawing.Point(10, 171)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 16)
+        Me.Label1.Size = New System.Drawing.Size(142, 15)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Courses Available to you:"
         '
@@ -138,7 +140,8 @@ Partial Class ScheduleDesignGui
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadPreviouslyTakenClassesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1407, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1055, 28)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -151,9 +154,10 @@ Partial Class ScheduleDesignGui
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(1577, 965)
+        Me.Label9.Location = New System.Drawing.Point(1183, 784)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(89, 16)
+        Me.Label9.Size = New System.Drawing.Size(81, 15)
         Me.Label9.TabIndex = 26
         Me.Label9.Text = "Total Credits: "
         '
@@ -163,9 +167,10 @@ Partial Class ScheduleDesignGui
         Me.ListView8.GridLines = True
         Me.ListView8.HideSelection = False
         Me.ListView8.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView8.Location = New System.Drawing.Point(1444, 595)
+        Me.ListView8.Location = New System.Drawing.Point(1083, 483)
+        Me.ListView8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView8.Name = "ListView8"
-        Me.ListView8.Size = New System.Drawing.Size(340, 355)
+        Me.ListView8.Size = New System.Drawing.Size(256, 289)
         Me.ListView8.TabIndex = 25
         Me.ListView8.UseCompatibleStateImageBehavior = False
         Me.ListView8.View = System.Windows.Forms.View.Details
@@ -187,9 +192,10 @@ Partial Class ScheduleDesignGui
         'RadioButton8
         '
         Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(1552, 576)
+        Me.RadioButton8.Location = New System.Drawing.Point(1164, 468)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(114, 20)
+        Me.RadioButton8.Size = New System.Drawing.Size(105, 19)
         Me.RadioButton8.TabIndex = 24
         Me.RadioButton8.TabStop = True
         Me.RadioButton8.Text = "Add Semester"
@@ -201,9 +207,10 @@ Partial Class ScheduleDesignGui
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
         Me.ListView1.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView1.Location = New System.Drawing.Point(301, 229)
+        Me.ListView1.Location = New System.Drawing.Point(226, 186)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(242, 151)
+        Me.ListView1.Size = New System.Drawing.Size(182, 123)
         Me.ListView1.TabIndex = 27
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -228,9 +235,10 @@ Partial Class ScheduleDesignGui
         Me.ListView2.GridLines = True
         Me.ListView2.HideSelection = False
         Me.ListView2.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView2.Location = New System.Drawing.Point(587, 229)
+        Me.ListView2.Location = New System.Drawing.Point(440, 186)
+        Me.ListView2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(242, 151)
+        Me.ListView2.Size = New System.Drawing.Size(182, 123)
         Me.ListView2.TabIndex = 30
         Me.ListView2.UseCompatibleStateImageBehavior = False
         Me.ListView2.View = System.Windows.Forms.View.Details
@@ -255,9 +263,10 @@ Partial Class ScheduleDesignGui
         Me.ListView3.GridLines = True
         Me.ListView3.HideSelection = False
         Me.ListView3.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView3.Location = New System.Drawing.Point(868, 229)
+        Me.ListView3.Location = New System.Drawing.Point(651, 186)
+        Me.ListView3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView3.Name = "ListView3"
-        Me.ListView3.Size = New System.Drawing.Size(242, 151)
+        Me.ListView3.Size = New System.Drawing.Size(182, 123)
         Me.ListView3.TabIndex = 33
         Me.ListView3.UseCompatibleStateImageBehavior = False
         Me.ListView3.View = System.Windows.Forms.View.Details
@@ -278,9 +287,10 @@ Partial Class ScheduleDesignGui
         '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(945, 415)
+        Me.Label4.Location = New System.Drawing.Point(709, 337)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(89, 16)
+        Me.Label4.Size = New System.Drawing.Size(67, 13)
         Me.Label4.TabIndex = 31
         Me.Label4.Text = "Total Credits: "
         '
@@ -290,9 +300,10 @@ Partial Class ScheduleDesignGui
         Me.ListView4.GridLines = True
         Me.ListView4.HideSelection = False
         Me.ListView4.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView4.Location = New System.Drawing.Point(1131, 228)
+        Me.ListView4.Location = New System.Drawing.Point(848, 185)
+        Me.ListView4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView4.Name = "ListView4"
-        Me.ListView4.Size = New System.Drawing.Size(242, 151)
+        Me.ListView4.Size = New System.Drawing.Size(182, 123)
         Me.ListView4.TabIndex = 36
         Me.ListView4.UseCompatibleStateImageBehavior = False
         Me.ListView4.View = System.Windows.Forms.View.Details
@@ -317,9 +328,10 @@ Partial Class ScheduleDesignGui
         Me.ListView5.GridLines = True
         Me.ListView5.HideSelection = False
         Me.ListView5.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView5.Location = New System.Drawing.Point(301, 423)
+        Me.ListView5.Location = New System.Drawing.Point(226, 344)
+        Me.ListView5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView5.Name = "ListView5"
-        Me.ListView5.Size = New System.Drawing.Size(242, 151)
+        Me.ListView5.Size = New System.Drawing.Size(182, 123)
         Me.ListView5.TabIndex = 39
         Me.ListView5.UseCompatibleStateImageBehavior = False
         Me.ListView5.View = System.Windows.Forms.View.Details
@@ -340,9 +352,10 @@ Partial Class ScheduleDesignGui
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(378, 591)
+        Me.Label6.Location = New System.Drawing.Point(284, 480)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(89, 16)
+        Me.Label6.Size = New System.Drawing.Size(67, 13)
         Me.Label6.TabIndex = 37
         Me.Label6.Text = "Total Credits: "
         '
@@ -352,9 +365,10 @@ Partial Class ScheduleDesignGui
         Me.ListView6.GridLines = True
         Me.ListView6.HideSelection = False
         Me.ListView6.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView6.Location = New System.Drawing.Point(587, 463)
+        Me.ListView6.Location = New System.Drawing.Point(440, 376)
+        Me.ListView6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView6.Name = "ListView6"
-        Me.ListView6.Size = New System.Drawing.Size(242, 151)
+        Me.ListView6.Size = New System.Drawing.Size(182, 123)
         Me.ListView6.TabIndex = 42
         Me.ListView6.UseCompatibleStateImageBehavior = False
         Me.ListView6.View = System.Windows.Forms.View.Details
@@ -375,9 +389,10 @@ Partial Class ScheduleDesignGui
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(664, 591)
+        Me.Label7.Location = New System.Drawing.Point(498, 480)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(89, 16)
+        Me.Label7.Size = New System.Drawing.Size(67, 13)
         Me.Label7.TabIndex = 40
         Me.Label7.Text = "Total Credits: "
         '
@@ -387,9 +402,10 @@ Partial Class ScheduleDesignGui
         Me.ListView9.GridLines = True
         Me.ListView9.HideSelection = False
         Me.ListView9.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView9.Location = New System.Drawing.Point(868, 423)
+        Me.ListView9.Location = New System.Drawing.Point(651, 344)
+        Me.ListView9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView9.Name = "ListView9"
-        Me.ListView9.Size = New System.Drawing.Size(242, 151)
+        Me.ListView9.Size = New System.Drawing.Size(182, 123)
         Me.ListView9.TabIndex = 45
         Me.ListView9.UseCompatibleStateImageBehavior = False
         Me.ListView9.View = System.Windows.Forms.View.Details
@@ -410,9 +426,10 @@ Partial Class ScheduleDesignGui
         '
         'Label10
         '
-        Me.Label10.Location = New System.Drawing.Point(945, 591)
+        Me.Label10.Location = New System.Drawing.Point(709, 480)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(89, 16)
+        Me.Label10.Size = New System.Drawing.Size(67, 13)
         Me.Label10.TabIndex = 43
         Me.Label10.Text = "Total Credits: "
         '
@@ -422,9 +439,10 @@ Partial Class ScheduleDesignGui
         Me.ListView10.GridLines = True
         Me.ListView10.HideSelection = False
         Me.ListView10.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView10.Location = New System.Drawing.Point(1131, 456)
+        Me.ListView10.Location = New System.Drawing.Point(848, 370)
+        Me.ListView10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView10.Name = "ListView10"
-        Me.ListView10.Size = New System.Drawing.Size(242, 151)
+        Me.ListView10.Size = New System.Drawing.Size(182, 123)
         Me.ListView10.TabIndex = 48
         Me.ListView10.UseCompatibleStateImageBehavior = False
         Me.ListView10.View = System.Windows.Forms.View.Details
@@ -445,78 +463,88 @@ Partial Class ScheduleDesignGui
         '
         'Label11
         '
-        Me.Label11.Location = New System.Drawing.Point(1208, 620)
+        Me.Label11.Location = New System.Drawing.Point(906, 504)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(89, 16)
+        Me.Label11.Size = New System.Drawing.Size(67, 13)
         Me.Label11.TabIndex = 46
         Me.Label11.Text = "Total Credits: "
         '
         'ProgressBar3
         '
-        Me.ProgressBar3.Location = New System.Drawing.Point(299, 664)
+        Me.ProgressBar3.Location = New System.Drawing.Point(224, 540)
+        Me.ProgressBar3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar3.Name = "ProgressBar3"
-        Me.ProgressBar3.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar3.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar3.TabIndex = 51
         '
         'ProgressBar4
         '
-        Me.ProgressBar4.Location = New System.Drawing.Point(298, 798)
+        Me.ProgressBar4.Location = New System.Drawing.Point(224, 648)
+        Me.ProgressBar4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar4.Name = "ProgressBar4"
-        Me.ProgressBar4.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar4.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar4.TabIndex = 54
         '
         'ProgressBar5
         '
-        Me.ProgressBar5.Location = New System.Drawing.Point(298, 754)
+        Me.ProgressBar5.Location = New System.Drawing.Point(224, 613)
+        Me.ProgressBar5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar5.Name = "ProgressBar5"
-        Me.ProgressBar5.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar5.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar5.TabIndex = 53
         '
         'ProgressBar6
         '
-        Me.ProgressBar6.Location = New System.Drawing.Point(298, 710)
+        Me.ProgressBar6.Location = New System.Drawing.Point(224, 577)
+        Me.ProgressBar6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar6.Name = "ProgressBar6"
-        Me.ProgressBar6.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar6.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar6.TabIndex = 52
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Select"})
-        Me.ComboBox1.Location = New System.Drawing.Point(133, 864)
+        Me.ComboBox1.Location = New System.Drawing.Point(100, 702)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox1.TabIndex = 55
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(110, 845)
+        Me.Label12.Location = New System.Drawing.Point(82, 687)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(144, 16)
+        Me.Label12.Size = New System.Drawing.Size(133, 15)
         Me.Label12.TabIndex = 56
         Me.Label12.Text = "Select Minor/Certificate"
         '
         'ProgressBar7
         '
-        Me.ProgressBar7.Location = New System.Drawing.Point(299, 850)
+        Me.ProgressBar7.Location = New System.Drawing.Point(224, 691)
+        Me.ProgressBar7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar7.Name = "ProgressBar7"
-        Me.ProgressBar7.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar7.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar7.TabIndex = 57
         '
         'ProgressBar8
         '
-        Me.ProgressBar8.Location = New System.Drawing.Point(299, 912)
+        Me.ProgressBar8.Location = New System.Drawing.Point(224, 741)
+        Me.ProgressBar8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar8.Name = "ProgressBar8"
-        Me.ProgressBar8.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar8.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar8.TabIndex = 60
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(110, 907)
+        Me.Label13.Location = New System.Drawing.Point(82, 737)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(144, 16)
+        Me.Label13.Size = New System.Drawing.Size(133, 15)
         Me.Label13.TabIndex = 59
         Me.Label13.Text = "Select Minor/Certificate"
         '
@@ -524,24 +552,27 @@ Partial Class ScheduleDesignGui
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Select"})
-        Me.ComboBox2.Location = New System.Drawing.Point(133, 926)
+        Me.ComboBox2.Location = New System.Drawing.Point(100, 752)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox2.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox2.TabIndex = 58
         '
         'ProgressBar9
         '
-        Me.ProgressBar9.Location = New System.Drawing.Point(298, 965)
+        Me.ProgressBar9.Location = New System.Drawing.Point(224, 784)
+        Me.ProgressBar9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar9.Name = "ProgressBar9"
-        Me.ProgressBar9.Size = New System.Drawing.Size(529, 38)
+        Me.ProgressBar9.Size = New System.Drawing.Size(397, 31)
         Me.ProgressBar9.TabIndex = 63
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(109, 960)
+        Me.Label14.Location = New System.Drawing.Point(82, 780)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(144, 16)
+        Me.Label14.Size = New System.Drawing.Size(133, 15)
         Me.Label14.TabIndex = 62
         Me.Label14.Text = "Select Minor/Certificate"
         '
@@ -549,24 +580,26 @@ Partial Class ScheduleDesignGui
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Select"})
-        Me.ComboBox3.Location = New System.Drawing.Point(132, 979)
+        Me.ComboBox3.Location = New System.Drawing.Point(99, 795)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox3.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox3.TabIndex = 61
         '
-        'ListView11
+        'lvEnterClasses
         '
-        Me.ListView11.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader33, Me.ColumnHeader34, Me.ColumnHeader35})
-        Me.ListView11.GridLines = True
-        Me.ListView11.HideSelection = False
-        Me.ListView11.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.ListView11.Location = New System.Drawing.Point(17, 54)
-        Me.ListView11.Name = "ListView11"
-        Me.ListView11.Size = New System.Drawing.Size(242, 141)
-        Me.ListView11.TabIndex = 64
-        Me.ListView11.UseCompatibleStateImageBehavior = False
-        Me.ListView11.View = System.Windows.Forms.View.Details
-        Me.ListView11.Visible = False
+        Me.lvEnterClasses.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader33, Me.ColumnHeader34, Me.ColumnHeader35})
+        Me.lvEnterClasses.GridLines = True
+        Me.lvEnterClasses.HideSelection = False
+        Me.lvEnterClasses.ImeMode = System.Windows.Forms.ImeMode.[On]
+        Me.lvEnterClasses.Location = New System.Drawing.Point(13, 44)
+        Me.lvEnterClasses.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.lvEnterClasses.Name = "lvEnterClasses"
+        Me.lvEnterClasses.Size = New System.Drawing.Size(182, 115)
+        Me.lvEnterClasses.TabIndex = 64
+        Me.lvEnterClasses.UseCompatibleStateImageBehavior = False
+        Me.lvEnterClasses.View = System.Windows.Forms.View.Details
+        Me.lvEnterClasses.Visible = False
         '
         'ColumnHeader33
         '
@@ -585,58 +618,63 @@ Partial Class ScheduleDesignGui
         '
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
-        Me.ComboBox4.Location = New System.Drawing.Point(355, 199)
+        Me.ComboBox4.Location = New System.Drawing.Point(266, 162)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox4.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox4.TabIndex = 65
         '
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
-        Me.ComboBox5.Location = New System.Drawing.Point(655, 199)
+        Me.ComboBox5.Location = New System.Drawing.Point(491, 162)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox5.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox5.TabIndex = 66
         '
         'ComboBox6
         '
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
-        Me.ComboBox6.Location = New System.Drawing.Point(929, 199)
+        Me.ComboBox6.Location = New System.Drawing.Point(697, 162)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox6.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox6.TabIndex = 67
         '
         'ComboBox7
         '
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"Select Semester", "Fall", "Spring", "Summer"})
-        Me.ComboBox7.Location = New System.Drawing.Point(1193, 202)
+        Me.ComboBox7.Location = New System.Drawing.Point(895, 164)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox7.Size = New System.Drawing.Size(92, 21)
         Me.ComboBox7.TabIndex = 68
         '
         'Label2
         '
-        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label2.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.Label2.ForeColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Label2.Location = New System.Drawing.Point(319, 54)
+        Me.Label2.Location = New System.Drawing.Point(239, 44)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(256, 106)
+        Me.Label2.Size = New System.Drawing.Size(192, 86)
         Me.Label2.TabIndex = 69
         '
         'ScheduleDesignGui
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1407, 1055)
+        Me.ClientSize = New System.Drawing.Size(1055, 857)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ComboBox7)
         Me.Controls.Add(Me.ComboBox6)
         Me.Controls.Add(Me.ComboBox5)
         Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ListView11)
+        Me.Controls.Add(Me.lvEnterClasses)
         Me.Controls.Add(Me.ProgressBar9)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.ComboBox3)
@@ -670,6 +708,7 @@ Partial Class ScheduleDesignGui
         Me.Controls.Add(Me.lvwAvailableClasses)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ScheduleDesignGui"
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
@@ -742,7 +781,7 @@ Partial Class ScheduleDesignGui
     Friend WithEvents ProgressBar9 As ProgressBar
     Friend WithEvents Label14 As Label
     Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ListView11 As ListView
+    Friend WithEvents lvEnterClasses As ListView
     Friend WithEvents ColumnHeader33 As ColumnHeader
     Friend WithEvents ColumnHeader34 As ColumnHeader
     Friend WithEvents ColumnHeader35 As ColumnHeader
