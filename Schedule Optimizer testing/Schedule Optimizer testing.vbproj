@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A2FC7F0D-6F58-403B-A9DD-2C525B8D24BE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Schedule_Optimizer_testing.My.MyApplication</StartupObject>
+    <StartupObject>Schedule_Optimizer_testing.WelcomeScreen</StartupObject>
     <RootNamespace>Schedule_Optimizer_testing</RootNamespace>
     <AssemblyName>Schedule Optimizer testing</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -73,6 +73,21 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminID.Designer.vb">
+      <DependentUpon>AdminID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Course.vb" />
+    <Compile Include="Student.vb" />
+    <Compile Include="StudentIDForm.Designer.vb">
+      <DependentUpon>StudentIDForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentIDForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoadClasses.Designer.vb">
       <DependentUpon>LoadClasses.vb</DependentUpon>
     </Compile>
@@ -93,10 +108,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="My Project\Application.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -109,6 +120,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminID.resx">
+      <DependentUpon>AdminID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentIDForm.resx">
+      <DependentUpon>StudentIDForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadClasses.resx">
       <DependentUpon>LoadClasses.vb</DependentUpon>
     </EmbeddedResource>
@@ -128,7 +145,6 @@
   <ItemGroup>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
-      <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
